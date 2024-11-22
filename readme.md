@@ -39,7 +39,7 @@ const stateHistory = transformStateWithClones(state, [
     extraData: { another: 'one' },
   },
 ]);
-
+/
 console.log(stateHistory);
 // [
 //   { foo: 'bar', bar: 'foo', name: 'Jim', hello: 'world' },
